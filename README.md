@@ -96,6 +96,23 @@ $ BROWSERS=Firefox,Chrome npm test
 $ BROWSERS=Firefox,Chrome,Safari npm test
 ```
 
+## Install
+
+You can install this package either with `npm`, with `bower` or downloading directly.
+
+### npm
+
+```shell
+npm install selectize
+```
+
+Then add the css and js import to your html file, e.g. `index.html`:
+
+```html
+<link href="dist/css/selectize.css' %}" rel="stylesheet">
+<script src="dist/js/standalone/selectize.min.js"></script>
+```
+
 ## License
 
 Copyright &copy; 2013–2015 [Brian Reavis](http://twitter.com/brianreavis) & [Contributors](https://github.com/brianreavis/selectize.js/graphs/contributors)
